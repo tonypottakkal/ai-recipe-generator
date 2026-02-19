@@ -2,21 +2,15 @@
 
 ### Serverless Generative AI Application with AWS Amplify & Amazon Bedrock
 
-```{=html}
 <p align="center">
-```
-
-`<img src="https://img.shields.io/badge/AWS-Amplify-orange?logo=amazonaws&logoColor=white" />`{=html}
-`<img src="https://img.shields.io/badge/AWS-AppSync-FF9900?logo=amazonaws&logoColor=white" />`{=html}
-`<img src="https://img.shields.io/badge/AWS-Lambda-FF9900?logo=amazonaws&logoColor=white" />`{=html}
-`<img src="https://img.shields.io/badge/Amazon-Bedrock-232F3E?logo=amazonaws&logoColor=white" />`{=html}
-`<img src="https://img.shields.io/badge/Model-Claude%203%20Sonnet-blueviolet" />`{=html}
-`<img src="https://img.shields.io/badge/Architecture-Serverless-success" />`{=html}
-`<img src="https://img.shields.io/badge/License-MIT-green" />`{=html}
-
-```{=html}
+  <img src="https://img.shields.io/badge/AWS-Amplify-orange?logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-AppSync-FF9900?logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-Lambda-FF9900?logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Amazon-Bedrock-232F3E?logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Model-Claude%203%20Sonnet-blueviolet" />
+  <img src="https://img.shields.io/badge/Architecture-Serverless-success" />
+  <img src="https://img.shields.io/badge/License-MIT-green" />
 </p>
-```
 
 ---
 
@@ -37,7 +31,11 @@ used in real enterprise AI systems.
 
     User → AWS Amplify → Cognito → AppSync (GraphQL) → Lambda → Amazon Bedrock (Claude 3 Sonnet)
 
-    ![Serverless Generative AI Architecture Diagram](./serverless-genai-architecture-diagram.png)
+<p align="center">
+  <img src="./serverless-genai-architecture-diagram.png"
+       alt="Serverless Generative AI Architecture Diagram"
+       width="900" />
+</p>
 
 ### Service Responsibilities
 
